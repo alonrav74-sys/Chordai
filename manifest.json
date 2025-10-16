@@ -1,11 +1,11 @@
 {
-  "name": "ChordFinder AI",
-  "short_name": "ChordFinder",
+  "name": "Chord Finder AI",
+  "short_name": "ChordFinderAI",
+  "description": "AI חכם לזיהוי אקורדים בזמן אמת מתוך שירים והקלטות.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0b1022",
   "theme_color": "#0b1022",
-  "description": "אפליקציית זיהוי אקורדים חכמה בזמן אמת",
   "icons": [
     {
       "src": "icons/icon-192.png",
