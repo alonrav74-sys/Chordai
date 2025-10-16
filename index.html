@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChordFinder AI — v9.3</title>
+  <meta name="theme-color" content="#0b1022">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+</head>
+<body>
+  <h1>ChordFinder AI — PWA Ready</h1>
+  <p>האפליקציה שלך מוכנה להתקנה!</p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('Service Worker registered'));
+    }
+  </script>
+</body>
+</html>
