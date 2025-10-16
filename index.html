@@ -6,48 +6,9 @@
   <title>Chord Finder AI — v9.3 (Harmonic Live Sheet)</title>
   <meta name="theme-color" content="#0b1022" />
   <link rel="manifest" href="manifest.json" />
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js');
-      });
-    }
-  </script>
-  <style>
-    :root{--bg:#0b1022;--panel:#0f172a;--muted:#94a3b8;--text:#e5e7eb;--card:#0a1324;--border:#1b2333;--brand:#22c55e;--accent:#38bdf8;--alert:#f59e0b}
-    *{box-sizing:border-box}
-    body{margin:0;background:linear-gradient(160deg,var(--bg),#0a0f1c);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);direction:rtl}
-    .wrap{max-width:1120px;margin:auto;padding:18px}
-    h1{margin:6px 0 10px;font-size:24px}
-    .muted{color:var(--muted);font-size:14px}
-    .panel{background:#0c162b;border:1px solid #1f2a40;border-radius:16px;padding:14px;margin-top:12px}
-    .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-    input[type="file"], select, button, input[type="number"]{padding:10px 14px;border-radius:12px;border:1px solid #223;background:#0b1221;color:#cfe3ff;appearance:none;font-weight:700;cursor:pointer}
-    .badge{display:inline-flex;gap:6px;align-items:center;background:#0b1221;border:1px solid #1f2937;color:#cbd5e1;border-radius:999px;padding:6px 10px;font-size:12px}
-    .badge.ai{border-color:#23664d;background:#0d2e1f;color:#d7ffe6}
-    .live{background:#0c162b;border:1px solid #1f2a40;border-radius:16px;padding:18px;display:flex;align-items:center;justify-content:space-between;margin-top:10px}
-    .live .title{color:#a9b4c8;font-size:13px}
-    .live .ch{font-weight:800;font-size:42px}
-    .mono{font-family:ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;line-height:1.6;direction:ltr;text-align:left}
-    .pill{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;border:1px solid #2a3d55;margin:2px 4px;background:#0b1221}
-    .ok{border-color:#1f5f3f;color:#d7ffe6;background:#0d2e1f}
-    .err{border-color:#5f2323;color:#ffe0e0;background:#3f1d1d}
-    .warn{border-color:#8a6a1f;color:#fff0d9;background:#3a2a0c}
-    .spin{width:12px;height:12px;border-radius:50%;border:2px solid var(--accent);border-top-color:transparent;animation:sp 1s linear infinite}
-    @keyframes sp{to{transform:rotate(360deg)}}
-    progress{width:240px;height:10px;border-radius:8px;overflow:hidden}
-    .mutedSmall{color:#94a3b8;font-size:12px}
-    .chip{display:inline-flex;align-items:center;gap:6px;padding:2px 8px;border-radius:999px;background:#0b1221;border:1px solid #1f2a40;font-size:12px}
-    .chip .dot{width:6px;height:6px;border-radius:50%;background:#22c55e}
-    .chip.warn .dot{background:#f59e0b}
-    .chip.err .dot{background:#ef4444}
-  </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>🎵 Chord Finder AI — v9.3 (Harmonic Live Sheet)</h1>
-    <div class="muted">מנוע 9.3 מקורי • ניתוח הרמוני בזמן אמת לפי אתנחתות, קאדנצות, דומיננטות וטוניקות • עד 7 אקורדים בשורה • לא מפספס שום אקורד.</div>
-    <iframe src="about:blank" style="width:100%;height:70vh;border:none;margin-top:12px;border-radius:12px;background:#111"></iframe>
-  </div>
+  <h1>ChordFinder AI</h1>
+  <p>גרסת PWA עם אייקון גיטרה מותאם.</p>
 </body>
 </html>
