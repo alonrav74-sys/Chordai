@@ -1,13 +1,11 @@
 {
   "name": "Chord Finder AI",
   "short_name": "ChordFinder",
-  "description": "אפליקציית ניתוח אקורדים חכמה בזמן אמת — Chord Finder AI v9.4.6",
-  "lang": "he",
-  "dir": "rtl",
+  "description": "Chord Finder AI — Harmonic Live Sheet v9.4.6 PWA Edition",
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#0b1022",
   "background_color": "#0b1022",
+  "theme_color": "#0b1022",
   "icons": [
     {
       "src": "icons/icon-192.png",
