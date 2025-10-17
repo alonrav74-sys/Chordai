@@ -1,12 +1,11 @@
 {
   "name": "Chord Finder AI",
   "short_name": "ChordFinder",
-  "start_url": "./index.html",
+  "description": "אפליקציית ניתוח אקורדים חכמה בזמן אמת (Harmony + Pause)",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#0b1022",
   "theme_color": "#0b1022",
-  "orientation": "portrait",
-  "description": "AI Live Chord Recognition App (v9.4.6 Harmonic)",
   "icons": [
     {
       "src": "icons/icon-192.png",
