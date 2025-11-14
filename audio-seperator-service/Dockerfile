@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.9-slim
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -25,4 +25,4 @@ COPY . .
 EXPOSE 5000
 
 # Run with gunicorn for production
-CMD ["python","app.py"]
+CMD ["python", "app.py"]
