@@ -15,14 +15,11 @@ COPY requirements.txt .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Download Spleeter models during build (optional but recommended)
-RUN python -c "from spleeter.separator import Separator; Separator('spleeter:2stems')"
-
 # Copy application code
 COPY . .
 
 # Expose port
 EXPOSE 5000
 
-# Run with gunicorn for production
+# Run with python
 CMD ["python", "app.py"]
